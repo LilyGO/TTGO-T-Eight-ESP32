@@ -60,7 +60,7 @@
 
 // Initialize the OLED display using Wire library
 // SSD1306  display(0x3c, 5, 4);
-SH1106 display(0x3c, 5, 4);//5.4
+SH1106 display(0x3c, 21, 22);//old version:25.4
 
 
 #define DEMO_DURATION 3000
